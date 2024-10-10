@@ -1,6 +1,6 @@
 <h1 align="center" id="title">Deauth</h1><br>
 
-<p id="description">Deauthalyzer is a script designed to monitor WiFi networks and detect de-authentication attacks. It utilizes packet sniffing and analysis techniques to identify de-authentication attack packets and provide relevant information about the attack. <br><br>This tool can be used by individuals or organizations that are interested in monitoring and protecting their WiFi networks from deauthentication attacks. This tool is particularly useful for:</p><br>
+<p id="description">Deauth is a script designed to monitor WiFi networks and detect de-authentication attacks. It utilizes packet sniffing and analysis techniques to identify de-authentication attack packets and provide relevant information about the attack. <br><br>This tool can be used by individuals or organizations that are interested in monitoring and protecting their WiFi networks from deauthentication attacks. This tool is particularly useful for:</p><br>
 
 * Network Administrators: Network administrators can use this tool to monitor their WiFi networks for any potential deauthentication attacks. It helps them identify and analyze the attacks, allowing them to take appropriate security measures to protect their network.
 
