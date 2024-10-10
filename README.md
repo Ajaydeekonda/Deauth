@@ -14,21 +14,7 @@
 
 
 
-
-<br><h2>💡 Features:</h2>
-
-*   Monitors WiFi networks for de-authentication attack packets.
-*   Displays information about the detected attack including the source MAC address.
-*   Provides the option to enable stealth mode during monitoring.
-*   Records details of detected attacks in a log file.
-<br>
-
-
-
-  
- 
-
-<h2>🛠️ Installation Steps:</h2><br>
+<h2> Installation Steps:</h2><br>
 
 ```
 git clone https://github.com/Ajaydeekonda/Deauth.git
@@ -43,17 +29,11 @@ chmod +x ./install.sh && ./install.sh
 sudo python deauth.py
 ```
 
-<br><h2>🎛 Usage:</h2>
+<br><h2>Usage:</h2>
 
 1\. Run the script with root privileges. <br><br>2. The script will display a list of available WiFi interfaces. Select the number corresponding to the interface you want to use for monitor mode. <br><br>3. The script will start monitoring the selected WiFi interface for de-authentication attack packets. If an attack is detected it will display information about the attack including the source MAC address. <br><br>4. The script will also record the details of detected attacks in a text file. Each attack will be stored in a separate file with the name deauthlog\_dateandtime.txt where dateandtime represents the timestamp when the attack was detected.<br>
 
   
   
-<br><h2>🪛 Troubleshooting:</h2>
-*  If you encounter any issues with the script, ensure that you have the necessary dependencies and tools installed correctly.
 
-*   Make sure you run the script with root privileges or use sudo.
-*   If the script fails to detect any wireless interfaces, ensure that your system has WiFi capabilities and the interfaces are properly recognized.
-*   If you experience any problems related to the packet capturing process, make sure airmon-ng and tshark are installed correctly and accessible from the command line.
-* If the issue still persists you can report the issue you are facing.
 
